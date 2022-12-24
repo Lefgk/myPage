@@ -9,7 +9,7 @@ const projects: Project[] = [
     img: "/static/projects/yei-learn.png",
     link: "https://learn.theyei.org/",
     github: "https://github.com/braydentw/learn.theyei",
-    tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
+    tags: ["React", "NextJS", "CSS"],
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ const projects: Project[] = [
     desc: "Beautiful HTML templates ready-made for your next landing page.",
     img: "/static/projects/buildfaster.png",
     link: "https://buildfaster.co/",
-    tags: ["HTML", "CSS", "Javascript", "Gumroad"],
+    tags: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 2,
@@ -71,14 +71,12 @@ const projects: Project[] = [
   },
 ];
 
-export const allTags = []
+export const allTags = [];
 
 projects.forEach((project) => {
-  project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag))
+  project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag));
 });
 
-export const allKebabTags = allTags.map(tag => (
-  kebabCase(tag)
-))
+export const allKebabTags = allTags.map((tag) => kebabCase(tag));
 
-export default projects
+export default projects;

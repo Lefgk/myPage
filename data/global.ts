@@ -1,25 +1,24 @@
 type Route = {
-  title: string,
-  path: string
-}
+  title: string;
+  path: string;
+};
 
 type FooterCol = {
-  title: string,
+  title: string;
   links: {
-    name: string,
-    link: string,
-    icon?: string,
-    leavesWebsite: boolean
-  }[]
-}
+    name: string;
+    link: string;
+    icon?: string;
+    leavesWebsite: boolean;
+  }[];
+};
 
 type Footer = {
-  columns: FooterCol[]
+  columns: FooterCol[];
   support: {
-    buymeacoffee: string
-    paypal: string
-    message: string
-  }
+    paypal: string;
+    message: string;
+  };
 };
 
 export const routes: Route[] = [
@@ -40,7 +39,6 @@ export const routes: Route[] = [
     path: "/designs",
   },
 ];
-
 
 export const footer: Footer = {
   columns: [
@@ -105,9 +103,4 @@ export const footer: Footer = {
       ],
     },
   ],
-  support: {
-    buymeacoffee: "braydenw",
-    paypal: "braydentw",
-    message: "I appreciate your support very much! 💙",
-  },
 };
