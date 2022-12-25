@@ -40,6 +40,58 @@ function Footer() {
             </div>
           );
         })}
+        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
+          <h4 className="uppercase text-fun-gray text-sm font-bold">
+            Support the creator
+          </h4>
+          <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
+            {footer.support.buymeacoffee !== "" && (
+              <div>
+                <a
+                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
+                  target="_blank"
+                >
+                  <img
+                    src="/static/misc/buy-me-a-coffee.svg"
+                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                  />
+                </a>
+              </div>
+            )}
+            {footer.support.paypal !== "" && (
+              <div>
+                <a
+                  href={`https://paypal.me/${footer.support.paypal}`}
+                  target="_blank"
+                >
+                  <img
+                    src="/static/misc/paypal.svg"
+                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                  />
+                </a>
+              </div>
+            )}
+            <p className="text-fun-gray text-xs pt-1">
+              {footer.support.message}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-8 text-center sm:text-right sm:-mt-12">
+        <a
+          className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
+          href="https://github.com/braydentw/braydentw.io"
+          target="_blank"
+          rel="nooreferrer"
+        >
+          <Image
+            src="/static/icons/github.svg"
+            width={16}
+            height={16}
+            alt="Github Icon"
+          />
+        </a>
       </div>
     </footer>
   );

@@ -16,6 +16,7 @@ type FooterCol = {
 type Footer = {
   columns: FooterCol[];
   support: {
+    buymeacoffee: string;
     paypal: string;
     message: string;
   };
@@ -72,35 +73,29 @@ export const footer: Footer = {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/braydentw",
+          link: "https://github.com/Lefgk",
           icon: "/static/icons/github-f.svg",
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/braydentw/",
+          link: "https://www.linkedin.com/in/eleftherios-giakoumakis/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
-        {
-          name: "Dribbble",
-          link: "https://dribbble.com/braydentw",
-          icon: "/static/icons/dribbble-f.svg",
-          leavesWebsite: true,
-        },
-        {
-          name: "IndieHackers",
-          link: "https://indiehackers.com/braydentw",
-          icon: "/static/icons/indiehackers-f.svg",
-          leavesWebsite: true,
-        },
+
         {
           name: "Email",
-          link: "mailto:contact@braydentw.io",
+          link: "lefgiak@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },
       ],
     },
   ],
+  support: {
+    buymeacoffee: "braydenw",
+    paypal: "braydentw",
+    message: "Braydentw created this site, just adjusted it 💙",
+  },
 };
