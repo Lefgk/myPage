@@ -46,7 +46,7 @@ function Designs() {
                   textAlign: "center",
                   fontWeight: "900",
                   fontSize: "1.75rem",
-
+                  color: "orange",
                   margin: "0",
                 }}
               >
@@ -73,7 +73,7 @@ function Designs() {
                   textAlign: "center",
                   fontWeight: "900",
                   fontSize: "1.75rem",
-
+                  color: "orange",
                   margin: "0",
                 }}
               >
@@ -136,7 +136,6 @@ const Education = (text) => {
 };
 
 const Experiences2 = (text, text2) => {
-  console.log(text2);
   return (
     <a
       href={projects[text2].link}
