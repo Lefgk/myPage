@@ -1,26 +1,122 @@
 import React from "react";
-import { designs } from "@/data/content/designs";
 
 function Designs() {
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
-      {designs.map((item, index) => {
-        return (
-          <div
-            className="w-full"
-            key={index}
-          >
-            <a href={item.link} target="_blank" className="w-full">
-              <img
-                className="w-full h-96 hover:opacity-75 transition-opacity object-cover"
-                src={item.img}
-              />
-            </a>
+    <>
+      <div style={{ color: "grey" }}>
+        <table width="100%">
+          <tbody>
+            <tr>
+              <td align="left" width="80%">
+                <h2>
+                  Eleftherios Giakoumakis (also Lef or Ελευθέριος Γιακουμάκης)
+                </h2>
+                Self-taught blockchain developer
+                <br />
+                Mailing address : lefgiak@gmail.com
+                <br />
+                Phone: +44 7706253730
+                <br />
+              </td>
+
+              <td>
+                <img alt={"/"} src="static/lef.jpg" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <section
+          className="content-section"
+          style={{ fontSize: "16px", lineHeight: "1.5", textAlign: "left" }}
+        >
+          <div style={{ marginBottom: "2em" }}>
+            <header
+              style={{
+                borderBottom: "4px solid #c7c7c7",
+                borderTop: "2px solid #c7c7c7",
+                padding: "0.2rem 0 0 0.4rem",
+                marginBottom: "1.5rem",
+              }}
+            >
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontWeight: "900",
+                  fontSize: "1.75rem",
+
+                  margin: "0",
+                }}
+              >
+                Experience
+              </h2>
+            </header>
+            <div style={{ marginBottom: "2rem", display: "block" }}>
+              {Experiences.map((item) => Education(item))}
+            </div>
           </div>
-        );
-      })}
-    </div>
+          <div style={{ marginBottom: "2em" }}>
+            <header
+              style={{
+                borderBottom: "4px solid #c7c7c7",
+                borderTop: "2px solid #c7c7c7",
+                padding: "0.2rem 0 0 0.4rem",
+                marginBottom: "1.5rem",
+              }}
+            >
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontWeight: "900",
+                  fontSize: "1.75rem",
+
+                  margin: "0",
+                }}
+              >
+                Education
+              </h2>
+            </header>
+            <div style={{ marginBottom: "2rem", display: "block" }}>
+              {Eduactions.map((item) => Education(item))}
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }
+
+const Eduactions = [
+  `- Self Learning (Solidity/React/Typescript/Node.js), 2020`,
+  `- Blockchain Developer, National Kapodistrian Uni of Athens (99/100), 2020`,
+  `- MSc, Introduction to Digital Currencies (91/100), Uni of Nicosia, 2018`,
+  `- MSc, Aerospace Engineering, Cranfield Uni, 2013 and 2015`,
+  `- BSc, Mechanical Engineering, Aristotle University of Thessaloniki
+(AUTH), 2011`,
+];
+const Experiences = [
+  `- Self Learning (Solidity/React/Typescript/Node.js), 2020`,
+  `- Blockchain Developer, National Kapodistrian Uni of Athens (99/100), 2020`,
+  `- MSc, Introduction to Digital Currencies (91/100), Uni of Nicosia, 2018`,
+  `- MSc, Aerospace Engineering, Cranfield Uni, 2013 and 2015`,
+  `- TorrSwap : Smart Contracts and Integration`,
+];
+const Education = (text) => {
+  return (
+    <h3
+      key={text}
+      style={{
+        fontWeight: "700",
+        margin: "0 0 0.75rem",
+        marginBottom: "10px",
+        fontSize: "1.5rem",
+        letterSpacing: "-.05rem",
+        lineHeight: "1",
+      }}
+    >
+      {text}
+      <br />
+    </h3>
+  );
+};
 
 export default Designs;

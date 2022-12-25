@@ -17,6 +17,7 @@ function ProjectCard({ project }) {
         <img
           className="w-full rounded-md"
           src={project.img}
+          style={{ width: "500px", height: "200px" }}
         />
       </a>
       <div className="w-full mt-5">

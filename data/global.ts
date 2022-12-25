@@ -36,8 +36,8 @@ export const routes: Route[] = [
     path: "/projects",
   },
   {
-    title: "Designs",
-    path: "/designs",
+    title: "My CV",
+    path: "/myCV",
   },
 ];
 
@@ -51,19 +51,15 @@ export const footer: Footer = {
           link: "/",
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
+
         {
           name: "Projects",
           link: "/projects",
           leavesWebsite: false,
         },
         {
-          name: "Designs",
-          link: "/designs",
+          name: "My CV",
+          link: "/myCV",
           leavesWebsite: false,
         },
       ],
@@ -96,6 +92,6 @@ export const footer: Footer = {
   support: {
     buymeacoffee: "braydenw",
     paypal: "braydentw",
-    message: "Braydentw created this site, just adjusted it 💙",
+    message: "Braydentw created this site, I just adjusted it 💙",
   },
 };
