@@ -18,6 +18,8 @@ function Designs() {
                 <br />
                 Phone: +44 7706253730
                 <br />
+                ENS: lefgiak.eth
+                <br />
               </td>
 
               <td>

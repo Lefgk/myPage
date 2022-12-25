@@ -30,7 +30,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "CHEDDA Is An Entertainment & Social Token and NFT",
+    title: "CHEDDA token",
     desc: "CHEDDA is a utility token and does not have any promise of future gains.",
     img: "/static/projects/chedda.png",
     link: "https://www.cheddatoken.com/",
@@ -47,8 +47,8 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Babynft is a community memecoin in DogeChain",
-    desc: "I wrote the smart contracts and integrated in UI",
+    title: "BabyNFT ",
+    desc: "BabyNFT is a community memecoin in DogeChain",
     img: "/static/projects/babynft.png",
 
     link: "https://babynfts.org/",
@@ -65,12 +65,21 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: "Hadouken",
+    title: "Hadouken Inu",
     desc: "Smart Contract Audit",
     img: "/static/projects/audit.png",
     link: "https://cdn.sanity.io/files/55hv5rxq/production/a397febac964e534b05b9696420fa9b409d9240b.pdf",
 
     tags: ["Solidity"],
+  },
+  {
+    id: 8,
+    title: "HBSC",
+    desc: "Financial Defi ecosystem",
+    img: "/static/projects/hbsc.png",
+    link: "https://hbsc-website-test-qelxg.ondigitalocean.app/",
+
+    tags: ["Solidity", "React"],
   },
 ];
 
