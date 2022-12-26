@@ -85,7 +85,8 @@ function Designs2() {
                 <br />
               </div>
               <div style={{ color: "white", lineHeight: "30px" }}>
-                - I have a big experience with arbitrage bots.
+                - I have a big experience with on and off-chain bots, arbitrage
+                (all kinds) and also general task bots.
                 <br />
               </div>
               <div style={{ color: "white", lineHeight: "30px" }}>
@@ -105,7 +106,8 @@ function Designs2() {
               <div style={{ color: "grey" }}> STACK</div>- I consider myself
               mid-level in {makeblue("Typescript")},{" "}
               {makeblue("web3.js/ethers.js libraries")}, {makeblue("Solidity")},{" "}
-              {makeblue("React")}, Next.js, Hardhat/Foundry.
+              {makeblue("React")}, Next.js, Hardhat/Foundry. I am also
+              profficient with front-end languages such as Typescript, React.
             </div>{" "}
             <br />
             <div
@@ -126,9 +128,11 @@ function Designs2() {
                 (And if I can't, I will be able to in no-time.)
               </h1>
               <div style={{ color: "white", lineHeight: "30px" }}>
-                - Write Smart Contracts, generally work on code reviews,
-                testing, bug fixing <br />- Integrate SC in a UI with
-                Java/Typescript and React. <br />
+                - Design and implement scalable, secure, and reliable Smart
+                Contracts - Generally work on code reviews, testing, bug fixing,
+                gas-efficient techniques <br />
+                - Work on Front-End using
+                <br />
                 <br />
               </div>
             </div>
