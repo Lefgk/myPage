@@ -7,7 +7,9 @@ type HeadingProps = {
 function Heading({ tag }: HeadingProps) {
   return (
     <div
-      className={`${tag ? "pt-10 pb-4 sm:pt-24 sm:pb-20" : "py-12 sm:py-20"} w-full text-center relative`}
+      className={`${
+        tag ? "pt-10 pb-4 sm:pt-24 sm:pb-20" : "py-12 sm:py-20"
+      } w-full text-center relative`}
     >
       {tag ? (
         <>
@@ -30,9 +32,10 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool apps and websites using anything from HTML to React
-          (and even PHP!). Here are some of my favorite projects over the course
-          of my journey.
+          I've built cool smart contracts and DAPPS using anything from Solidity
+          to React . Here are some of my favorite projects over the course of my
+          journey. Many of the DAPPS i have created <del>have rugpulled</del>{" "}
+          have finished so they are not shown.
         </p>
       )}
     </div>

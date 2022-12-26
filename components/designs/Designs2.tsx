@@ -39,9 +39,7 @@ function Designs2() {
             I am a {makeblue("self-taught")}, extremely driven, blockchain
             developer with background in Mechanical/Aerospace Eng. For more than
             2 years I have been working with smart contracts, either{" "}
-            {makeblue("creating dapps")} or {makeblue("finding bugs")}. Most of
-            the DAPPS i have created <del>have rugpulled</del> have finished so
-            they are not shown in my Projects.
+            {makeblue("creating dapps")} or {makeblue("finding bugs")}.
             <br />
           </div>
 
