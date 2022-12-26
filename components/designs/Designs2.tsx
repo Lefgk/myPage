@@ -131,7 +131,8 @@ function Designs2() {
                 - Design and implement scalable, secure, and reliable Smart
                 Contracts <br />- Generally work on code reviews, testing, bug
                 fixing, gas-efficient techniques <br />
-                - Work on Front-End using front-end languages
+                - Front-End integration of smart contracts using
+                Typescript/React/next.js
                 <br />
                 <br />
               </div>
