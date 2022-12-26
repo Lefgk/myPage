@@ -4,6 +4,24 @@ import projects from "@/data/content/projects";
 function Designs2() {
   return (
     <>
+      {" "}
+      <div
+        className="py-6 sm:py-10 w-full text-center relative"
+        style={{ paddingBottom: "10px", paddingTop: "120px" }}
+      >
+        <h1
+          className="text-2xl sm:text-6xl inline-block w-auto mb-2 relative"
+          style={{ color: "white", fontSize: "50px" }}
+        >
+          I am currently looking for a job as a
+        </h1>{" "}
+        <h1
+          className="text-2xl sm:text-6xl inline-block w-auto mb-2 relative"
+          style={{ color: "orange", fontSize: "50px" }}
+        >
+          mid-level Solidity Engineer
+        </h1>
+      </div>
       <div
         className="py-16 sm:py-20 w-full text-center relative"
         style={{ paddingBottom: "10px" }}
@@ -18,9 +36,9 @@ function Designs2() {
           style={{ fontSize: "16px", lineHeight: "1.5", textAlign: "left" }}
         >
           <div style={{ color: "white", lineHeight: "30px" }}>
-            I am a {makeblue("self-taught")} blockchain developer with
-            background in Mechanical/Aerospace Eng. For more than 2 years I have
-            been working with smart contracts, either{" "}
+            I am a {makeblue("self-taught")}, extremely driven, blockchain
+            developer with background in Mechanical/Aerospace Eng. For more than
+            2 years I have been working with smart contracts, either{" "}
             {makeblue("creating dapps")} or {makeblue("finding bugs")}. Most of
             the DAPPS i have created <del>have rugpulled</del> have finished so
             they are not shown in my Projects.
@@ -62,11 +80,16 @@ function Designs2() {
                 - I have a good understanding of {makeblue("Solidity")}, the{" "}
                 {makeblue("EVM")}, most used opcodes, testing suites like
                 Hardhat/{makeblue("Foundry")}, top DeFi protocols
-                (Uniswap/Compound/Aave..), gas saving techniques.
+                (Uniswap/Compound/Aave..), {makeblue("gas saving techniques")}{" "}
+                and security best practices.
                 <br />
               </div>
               <div style={{ color: "white", lineHeight: "30px" }}>
-                - I have made over $100,00k with arbitrage bots
+                - I have a big experience with arbitrage bots.
+                <br />
+              </div>
+              <div style={{ color: "white", lineHeight: "30px" }}>
+                - Big fan of {makeblue("Bankless")} podcast.
                 <br />
               </div>
               <div style={{ color: "white", lineHeight: "30px" }}>
@@ -78,13 +101,37 @@ function Designs2() {
                 </a>{" "}
                 but with support for unsupported chains.
                 <br />
-                <br />
               </div>
               <div style={{ color: "grey" }}> STACK</div>- I consider myself
-              mid-level in {makeblue("Typescript")}, {makeblue("Node.js")},{" "}
-              {makeblue("Solidity")}, {makeblue("React")}, Next.js,
-              Hardhat/Foundry
+              mid-level in {makeblue("Typescript")},{" "}
+              {makeblue("web3.js/ethers.js libraries")}, {makeblue("Solidity")},{" "}
+              {makeblue("React")}, Next.js, Hardhat/Foundry.
             </div>{" "}
+            <br />
+            <div
+              className="py-16 sm:py-20 w-full text-center relative"
+              style={{ paddingBottom: "10px", paddingTop: "20px" }}
+            >
+              <h1
+                className="text-4xl sm:text-6xl inline-block w-auto mb-8 relative"
+                style={{ color: "white", marginBottom: "10px" }}
+              >
+                What can i do for you?
+              </h1>
+              <br />
+              <h1
+                className="text-4xl sm:text-6xl inline-block w-auto mb-8 relative"
+                style={{ color: "white", fontSize: "30px" }}
+              >
+                (And if I can't, I will be able to in no-time.)
+              </h1>
+              <div style={{ color: "white", lineHeight: "30px" }}>
+                - Write Smart Contracts, generally work on code reviews,
+                testing, bug fixing <br />- Integrate SC in a UI with
+                Java/Typescript and React. <br />
+                <br />
+              </div>
+            </div>
           </div>
         </section>
       </div>
