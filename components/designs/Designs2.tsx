@@ -129,9 +129,9 @@ function Designs2() {
               </h1>
               <div style={{ color: "white", lineHeight: "30px" }}>
                 - Design and implement scalable, secure, and reliable Smart
-                Contracts - Generally work on code reviews, testing, bug fixing,
-                gas-efficient techniques <br />
-                - Work on Front-End using
+                Contracts <br />- Generally work on code reviews, testing, bug
+                fixing, gas-efficient techniques <br />
+                - Work on Front-End using front-end languages
                 <br />
                 <br />
               </div>
