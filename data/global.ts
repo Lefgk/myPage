@@ -86,7 +86,7 @@ export const footer: Footer = {
 
         {
           name: "Email",
-          link: "lefgiak@gmail.com",
+          link: "mailto:lefgiak@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },

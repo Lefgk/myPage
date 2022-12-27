@@ -50,7 +50,7 @@ function Designs() {
                   margin: "0",
                 }}
               >
-                Experience
+                Experience (few examples)
               </h2>
             </header>
             <div style={{ marginBottom: "2rem", display: "block" }}>
