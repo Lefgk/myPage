@@ -19,7 +19,7 @@ function Designs2() {
           className="text-2xl sm:text-6xl inline-block w-auto mb-2 relative"
           style={{ color: "orange", fontSize: "50px" }}
         >
-          mid-level Solidity Engineer
+          mid-level Blockchain/Solidity Engineer
         </h1>
       </div>
       <div
