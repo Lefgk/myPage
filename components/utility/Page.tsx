@@ -30,7 +30,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta property="twitter:title" content={pageTitle} />

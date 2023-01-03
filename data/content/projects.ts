@@ -25,7 +25,7 @@ const projects: Project[] = [
     desc: "Wonka is a DeFi Token with many use cases",
     img: "/static/projects/wonka.png",
     link: "https://thewonkatoken.com/",
-    github: "https://github.com/braydentw/react-emoji-search",
+
     tags: ["Solidity", "React"],
   },
   {
@@ -42,7 +42,7 @@ const projects: Project[] = [
     desc: "I audited the smart contracts",
     img: "/static/projects/shiryo.png",
     link: "https://shiryo.com/",
-    // github: "https://github.com/BraydenTW/create-html-boilerplate",
+
     tags: ["Solidity", "Foundry"],
   },
   {
@@ -52,7 +52,7 @@ const projects: Project[] = [
     img: "/static/projects/babynft.png",
 
     link: "https://babynfts.org/",
-    // github: "https://github.com/BraydenTW/create-html-boilerplate",
+
     tags: ["Solidity"],
   },
   {
