@@ -127,8 +127,11 @@ function Designs2() {
               </h1>
               <div style={{ color: "white", lineHeight: "30px" }}>
                 - Design and implement scalable, secure, and reliable Smart
-                Contracts <br />- Generally work on code reviews, testing, bug
-                fixing, gas-efficient techniques <br />
+                Contracts <br />- Any jobs related to
+                Typescript/Javacript/Node.js and web3 libraries (web3js, ethers)
+                <br />
+                - Generally work on code reviews, testing, bug fixing,
+                gas-efficient techniques <br />
                 - Front-End integration of smart contracts using
                 Typescript/React/next.js
                 <br />
