@@ -29,10 +29,6 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
 
-        <meta property="og:type" content="website" />
-
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={desc} />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
 
