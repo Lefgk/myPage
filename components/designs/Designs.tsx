@@ -50,13 +50,53 @@ function Designs() {
                   margin: "0",
                 }}
               >
-                Experience (few examples)
+                Experience
               </h2>
             </header>
             <div style={{ marginBottom: "2rem", display: "block" }}>
-              {Experiences.map((item) =>
-                Experiences2(item, Experiences.indexOf(item))
-              )}
+              <div className="hover:bg-fun-pink hover:text-white transition-colors cursor-pointer">
+                <h3
+                  key="0"
+                  style={{
+                    fontWeight: "700",
+                    margin: "0 0 0.75rem",
+                    marginBottom: "10px",
+                    fontSize: "1.5rem",
+                    letterSpacing: "-.05rem",
+                    lineHeight: "1",
+                  }}
+                >
+                  Blockchain freelancer (2020 - Present)
+                  <br />
+                </h3>
+                I am creating dapps for clients. I mainly write smart contracts
+                from scratch or modify existing popular ones (such as Uniswap or
+                Compound) to clients’ instructions and integrate them with
+                React. I also write documentation and create all kinds of tests
+                with Foundry and Hardhat like forking and fuzzing. In total I
+                would say I had more than 10 different teams/clients.
+              </div>
+              <div className="hover:bg-fun-pink hover:text-white transition-colors cursor-pointer">
+                <h3
+                  key="0"
+                  style={{
+                    fontWeight: "700",
+                    margin: "0 0 0.75rem",
+                    marginBottom: "10px",
+                    fontSize: "1.5rem",
+                    letterSpacing: "-.05rem",
+                    lineHeight: "1",
+                  }}
+                >
+                  Security auditor (2021 - Present)
+                  <br />
+                </h3>
+                I am really interested in smart contracts security, so I have
+                been providing auditing services to a few clients like
+                https://www.veracitysecurity.com/. I’m also involved in smart
+                contract security and bug hunting communities ( Code4rena,
+                sherlock.xyz, Immunefi )
+              </div>
             </div>
           </div>
           <div style={{ marginBottom: "2em" }}>
