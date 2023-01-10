@@ -76,6 +76,7 @@ function Designs() {
                 with Foundry and Hardhat like forking and fuzzing. In total I
                 would say I had more than 10 different teams/clients.
               </div>
+              <br />
               <div className="hover:bg-fun-pink hover:text-white transition-colors cursor-pointer">
                 <h3
                   key="0"
