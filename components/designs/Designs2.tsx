@@ -121,14 +121,21 @@ function Designs2() {
               <br />
               <h1
                 className="text-4xl sm:text-6xl inline-block w-auto mb-8 relative"
-                style={{ color: "white", fontSize: "30px" }}
+                style={{
+                  color: "white",
+                  fontSize: "30px",
+                }}
+              ></h1>
+              <div
+                style={{
+                  color: "white",
+                  lineHeight: "30px",
+                  alignItems: "left",
+                }}
               >
-                (And if I can't, I will be able to in no-time.)
-              </h1>
-              <div style={{ color: "white", lineHeight: "30px" }}>
                 - Design and implement scalable, secure, and reliable Smart
-                Contracts <br />- Any jobs related to
-                Typescript/Javacript/Node.js and web3 libraries (web3js, ethers)
+                Contracts.
+                <br />- Create documentation and tests for smart contracts.{" "}
                 <br />
                 - Generally work on code reviews, testing, bug fixing,
                 gas-efficient techniques <br />
