@@ -3,7 +3,7 @@ import { Project } from "types";
 
 const projects: Project[] = [
   {
-    id: 0,
+    id: 0.1,
     title: "DDD",
     desc: "The World's Leading ROI Platform",
     img: "/static/projects/drip.png",
