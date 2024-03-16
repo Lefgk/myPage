@@ -112,12 +112,12 @@ function Designs2() {
               className="py-16 sm:py-20 w-full text-center relative"
               style={{ paddingBottom: "10px", paddingTop: "20px" }}
             >
-              <h1
+              {/* <h1
                 className="text-4xl sm:text-6xl inline-block w-auto mb-8 relative"
                 style={{ color: "white", marginBottom: "10px" }}
               >
-                What can i do for you?
-              </h1>
+                What can i do?
+              </h1> */}
               <br />
               <h1
                 className="text-4xl sm:text-6xl inline-block w-auto mb-8 relative"

@@ -39,10 +39,10 @@ export const routes: Route[] = [
     title: "My CV",
     path: "/myCV",
   },
-  {
-    title: "What can i do?",
-    path: "/myWork",
-  },
+  // {
+  //   title: "What can i do?",
+  //   path: "/myWork",
+  // },
 ];
 
 export const footer: Footer = {

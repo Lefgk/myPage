@@ -69,12 +69,15 @@ function Designs() {
                   Blockchain freelancer (2020 - Present)
                   <br />
                 </h3>
-                I am creating dapps for clients. I mainly write smart contracts
-                from scratch or modify existing popular ones (such as Uniswap or
-                Compound) to clients’ instructions and integrate them with
-                React. I also write documentation and create all kinds of tests
-                with Foundry and Hardhat like forking and fuzzing. In total I
-                would say I had more than 10 different teams/clients.
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                  aa I am creating dapps for clients. I mainly write smart
+                  contracts from scratch or modify existing popular ones (such
+                  as Uniswap or Compound) to clients’ instructions and integrate
+                  them with React. I also write documentation and create all
+                  kinds of tests with Foundry and Hardhat like forking and
+                  fuzzing. In total I would say I had more than 10 different
+                  teams/clients.
+                </div>
               </div>
               <br />
               <div className="hover:bg-fun-pink hover:text-white transition-colors cursor-pointer">
