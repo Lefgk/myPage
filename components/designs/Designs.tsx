@@ -179,28 +179,4 @@ const Education = (text) => {
   );
 };
 
-const Experiences2 = (text, text2) => {
-  return (
-    <a
-      href={projects[text2].link}
-      target="_blank"
-      className="hover:bg-fun-pink hover:text-white transition-colors cursor-pointer"
-    >
-      <h3
-        key={text}
-        style={{
-          fontWeight: "700",
-          margin: "0 0 0.75rem",
-          marginBottom: "10px",
-          fontSize: "1.5rem",
-          letterSpacing: "-.05rem",
-          lineHeight: "1",
-        }}
-      >
-        {projects[text2].title}
-        <br />
-      </h3>
-    </a>
-  );
-};
 export default Designs;

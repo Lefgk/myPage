@@ -3,6 +3,15 @@ import { Project } from "types";
 
 const projects: Project[] = [
   {
+    id: 0.04,
+    title: "Black Cube Finance",
+    desc: "Advanced Liquidity Manager",
+    img: "/static/projects/bc.png",
+    link: "Q32024",
+    github: "code closed",
+    tags: ["Solidity", "React", "Foundry"],
+  },
+  {
     id: 0.05,
     title: "Carpe Diem Pension",
     desc: "A self-managed pension fund.",
@@ -10,6 +19,15 @@ const projects: Project[] = [
     link: "https://carpediem.finance/",
     github: "code closed",
     tags: ["Solidity", "React", "Foundry"],
+  },
+  {
+    id: 0.06,
+    title: "Leo On Blast",
+    desc: "The New Cat in Town!",
+    img: "/static/projects/leo.png",
+    link: "https://leoonblast.com/",
+    github: "code closed",
+    tags: ["Solidity", "React", "HardHat"],
   },
   {
     id: 0.1,
