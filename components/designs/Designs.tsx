@@ -66,17 +66,16 @@ function Designs() {
                     lineHeight: "1",
                   }}
                 >
-                  Blockchain freelancer (2020 - Present)
+                  Blockchain freelancer (2019 - Present)
                   <br />
                 </h3>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                  aa I am creating dapps for clients. I mainly write smart
-                  contracts from scratch or modify existing popular ones (such
-                  as Uniswap or Compound) to clients’ instructions and integrate
-                  them with React. I also write documentation and create all
-                  kinds of tests with Foundry and Hardhat like forking and
-                  fuzzing. In total I would say I had more than 10 different
-                  teams/clients.
+                  I am a contracts dev. I mainly write smart contracts from
+                  scratch or modify existing popular ones and integrate them
+                  with React. I also write documentation and create all kinds of
+                  tests with Foundry and Hardhat like forking and fuzzing. In
+                  total I would say I have worked with more than 15 different
+                  teams.
                 </div>
               </div>
               <br />
