@@ -3,6 +3,15 @@ import { Project } from "types";
 
 const projects: Project[] = [
   {
+    id: 0.05,
+    title: "Carpe Diem Pension",
+    desc: "A self-managed pension fund.",
+    img: "/static/projects/cdp.png",
+    link: "https://carpediem.finance/",
+    github: "code closed",
+    tags: ["Solidity", "React", "Foundry"],
+  },
+  {
     id: 0.1,
     title: "DDD",
     desc: "The World's Leading ROI Platform",
