@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     id: 0.5,
     title: "PulseMonster",
-    desc: "ULSE Monster unique token features that benefit all shared with its token holders.",
+    desc: "PULSE Monster unique token features that benefit all shared with its token holders.",
     img: "/static/projects/pmon.png",
     link: "https://pulsemonster.io/",
     github: "code closed",
