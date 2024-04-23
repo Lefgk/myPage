@@ -16,9 +16,9 @@ function Designs() {
                 <br />
                 Mailing address : lefgiak@gmail.com
                 <br />
-                Phone: +44 7706253730
-                <br />
-                ENS: lefgiak.eth
+                Phone: ask me
+                {/* <br />
+                ENS: lefgiak.eth */}
                 <br />
               </td>
 
@@ -134,7 +134,9 @@ function Designs() {
 }
 
 const Eduactions = [
-  `- Self Learning (Solidity/React/Typescript/Node.js), 2020`,
+  `- Uniswap hooks bootcamp - https://atrium.academy/uniswap , 2024`,
+  `- Chainlink Bootcamp , 2024`,
+  `- Self learning BlockChain developer (Solidity/React/Typescript/Node.js), 2020`,
   `- Blockchain Developer, National Kapodistrian Uni of Athens (99/100), 2020`,
   `- MSc, Introduction to Digital Currencies (91/100), Uni of Nicosia, 2018`,
   `- MSc, Aerospace Engineering, Cranfield Uni, 2013 and 2015`,
