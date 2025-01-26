@@ -35,10 +35,10 @@ export const routes: Route[] = [
     title: "Projects",
     path: "/projects",
   },
-  {
-    title: "My CV",
-    path: "/myCV",
-  },
+  // {
+  //   title: "My CV",
+  //   path: "/myCV",
+  // },
   // {
   //   title: "What can i do?",
   //   path: "/myWork",
@@ -61,11 +61,11 @@ export const footer: Footer = {
           link: "/projects",
           leavesWebsite: false,
         },
-        {
-          name: "My CV",
-          link: "/myCV",
-          leavesWebsite: false,
-        },
+        // {
+        //   name: "My CV",
+        //   link: "/myCV",
+        //   leavesWebsite: false,
+        // },
       ],
     },
     {
@@ -78,18 +78,18 @@ export const footer: Footer = {
           leavesWebsite: true,
         },
         {
-          name: "LinkedIn",
-          link: "https://www.linkedin.com/in/eleftherios-giakoumakis/",
-          icon: "/static/icons/linkedin-f.svg",
+          name: "Telegram",
+          link: "https://t.me/Lefkk",
+          // icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
 
-        {
-          name: "Email",
-          link: "mailto:lefgiak@gmail.com",
-          icon: "/static/icons/mail-f.svg",
-          leavesWebsite: true,
-        },
+        // {
+        //   name: "Email",
+        //   link: "mailto:lefgiak@gmail.com",
+        //   icon: "/static/icons/mail-f.svg",
+        //   leavesWebsite: true,
+        // },
       ],
     },
   ],
